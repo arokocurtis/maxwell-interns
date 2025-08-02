@@ -1,0 +1,232 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+/* Header */
+.site-header {
+  background-color: #111;
+  padding: 1rem 0;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.main-nav a.active,
+.main-nav a:hover {
+  color: #ffcc00;
+}
+
+/* Hero Sections */
+.car-hero,
+.parts-hero {
+  background: url('https://images.unsplash.com/photo-1503736334956-4c8f8e92946d') center/cover no-repeat;
+  color: white;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.car-hero h1,
+.parts-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.car-hero p,
+.parts-hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Filters */
+.filters-section {
+  background-color: #fff;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filters select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Grid Listings */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #111;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.site-footer nav a {
+  margin: 0 1rem;
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+/* WhatsApp Floating Icon */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 50px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.whatsapp-float:hover {
+  background: #20b954;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+}
+  .contact-section {
+    background: black;
+    padding: 4rem 1rem;
+    text-align: center;
+    border-radius: 100px;
+  }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .contact-item h4 {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  .contact-item a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+
+  .button-email{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    font-size: larger;
+  }
+  .telegram{
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    color: blue;
+    font-size: larger;
+  }

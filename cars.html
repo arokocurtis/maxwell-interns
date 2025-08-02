@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> | Cars for Sale</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">CarsForSell</div>
+      <nav class="main-nav">
+       
+        <a href="cars.html" class="active">Cars</a>
+        <a href="spareparts.html">Spare Parts</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="car-hero">
+    <div class="container">
+      <h1>Explore Our Cars</h1>
+      <p>Choose from a wide range of new and used vehicles tailored to your needs and budget.</p>
+    </div>
+  </section>
+
+  <section class="filters-section container">
+    <div class="filters">
+      <select id="brandFilter">
+        <option value="">All Brands</option>
+  <option value="hyundai">hyundai</option>
+  <option value="Toyota">Toyota</option>
+  <option value="Mercedes">Mercedes</option>
+      </select>
+      <select id="conditionFilter">
+        <option value="">All Conditions</option>
+        <option value="New">New</option>
+        <option value="Used">Used</option>
+      </select>
+      <select id="sortFilter">
+        <option value="newest">Sort by: Newest</option>
+        <option value="priceLow">Price: Low to High</option>
+        <option value="priceHigh">Price: High to Low</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="car-listings container">
+    <div class="grid" id="carGrid">
+      <!-- JavaScript will render car listings here -->
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 CarsForSell. All rights reserved.</p>
+      <nav>
+    
+        <a href="cars.html">Cars</a>
+        <a href="spareparts.html">Parts</a>
+        <!-- Contact Section (Reusable) -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>We’re here to help you find the right vehicle or part. Reach out anytime!</p>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <h4><button class="button-email">📧 Email</h4></button>
+        <a href="mailto:carandcarsspareparts@gmail.com">carandcarsspareparts@gmail.com</a>
+      </div>
+      
+      <div class="contact-item">
+        <h4><button class="telegram">📷 Telegram</h4></button>
+        <a href="https://telegram.com/https://t.me/+wX9sZjNzky40OGFk" target="_blank">https://t.me/+wX9sZjNzky40OGFk</a>
+      </div>
+      <div class="contact-item">
+        <h4><button class="telegram">📘 Facebook</h4></button>
+        <a href="https://facebook.com/yourpage" target="_blank">AutoMart Page</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+      </nav>
+    </div>
+  </footer>
+
+  <a href="mailto:carandcarsspareparts@gmail.com" class="whatsapp-float" target="_blank">💬</a>
+</body>
+</html>
