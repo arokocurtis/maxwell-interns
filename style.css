@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+  padding-bottom: 100px;
+}
+
+.container {
+  padding: 20em;
+  max-width: 500px;
+  margin: auto;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.subtext {
+  font-size: 14px;
+  color: #888;
+  margin: 5px 0 10px;
+}
+
+.amount-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.amount-options button {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pay-btn {
+  width: 100%;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.group-section {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.group-section h3 {
+  margin-bottom: 5px;
+}
+
+.group-section p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.group-btn {
+  width: 100%;
+  background-color: #d6b3ff;
+  color: black;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  border-top: 1px solid #ccc;
+}
+
+.bottom-nav button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-nav .active {
+  color: black;
+  font-weight: bold;
+}
+

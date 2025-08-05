@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pay the fare</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <button class="back-btn">← Back</button>
+    <h2>Pay the fare</h2>
+
+    <div class="form-section">
+      <label for="amount">Amount to pay (units)</label>
+      <input type="text" id="amount" placeholder="Ex: 350" />
+
+      <p class="subtext">Enter the fare amount</p>
+
+      <div class="amount-options">
+        <button>300</button>
+        <button>350</button>
+        <button>400</button>
+      </div>
+
+      <label for="driverId">Driver ID</label>
+      <input type="text" id="driverId" placeholder="Enter the driver ID" />
+
+      <button class="pay-btn">Pay ... units</button>
+    </div>
+
+    <div class="group-section">
+      <h3>Group Race</h3>
+      <p>Start a new group ride by adding a passenger.</p>
+
+      <label for="passenger">ID or Phone Number of the new passenger</label>
+      <input type="text" id="passenger" placeholder="Ex: user-456-def or +23769912345" />
+
+      <button class="group-btn">Create group and add</button>
+    </div>
+  </div>
+
+  <footer class="bottom-nav">
+    <button>🏠<br>Welcome</button>
+    <button class="active">📷<br>Pay</button>
+    <button>💳<br>Transfer</button>
+    <button>⚙️<br>Fare</button>
+  </footer>
+</body>
+</html>
