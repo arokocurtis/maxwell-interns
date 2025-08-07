@@ -1,0 +1,10 @@
+.hotel{
+    display: flex;
+}
+
+.three img{
+    display: block;
+    margin-bottom: 10px;
+    height: auto;
+    align-items: flex-start;
+}

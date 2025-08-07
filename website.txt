@@ -1,0 +1,175 @@
+index
+
+<body>
+    <header>
+        
+        <div class=" head" id="head">
+            <img src="1.jpg" alt="">
+            <h1 style="max-width: 900px;">Enjoy the West Region with the different forests Water bodies.
+                Enjoy the relief. Make it a memorable date. </h1>
+        </div>
+    </header>
+    <main>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="forest.html">Forests</a>
+            <a href="fes.html">Festivals</a>
+        </div>
+
+        <div class="info">
+            <div class="des">
+                <h1>One of the most interesting towns in Cameroon.</h1>
+                <p>Take a moment to explore Taos and discover the beauty, the culture, the people that make Taos and
+                    Northern New Mexico the Land of <br>
+
+                    Seated on the high-desert mesa at the foot of the Sangre de Cristo Mountains, Taos is rich with art
+                    and steeped in history. Home to Taos Pueblo, the Village of Taos Ski Valley and a colorful array of
+                    surrounding communities, Taos County has something for everyone. <br>
+
+                    Step into the history of Taos, New Mexico - this storied land has seen amazing people and events.
+                    <br>
+
+                    The Enchanted Circle is an 86 mile drive through gorgeous mountain peaks and valleys. This Enchanted
+                    Circle links the towns of Taos, Questa, Red River, Eagle Nest, Angel Fire and back to Taos! Take a
+                    picnic lunch to enjoy the beauty and serenity of Bobcat Pass or while fishing at one of the lakes
+                    around Eagle Nest or Angel Fire. <br>
+                    You could spend a month exploring Taos and never see the same thing twice.
+                    You could spend a month exploring Taos and never see the same thing twice.
+                    You could spend a month exploring Taos and never see the same thing twice.
+                    <br>
+                    You could spend a month exploring Taos and never see the same thing twice.
+                    You could spend a month exploring Taos and never see the same thing twice.
+                </p>
+            </div>
+            <div class="meals">
+                <h1>Meals</h1>
+                <div class="meal">
+                    <h2>1.Nkui (Soupe gluante)</h2>
+                    <p>Plat sacrechez les bamileke  notamment servi lors des naissances.
+                        Il s'agit d'une soupe a base de plantes medicinal rapees,souvent consommee avec du couscous de 
+                        mais
+                    </p>
+                </div>
+                <div class="meal">
+                    <h2>2.Sauce jaune (Soupe jaune)</h2>
+                    <p>Une sauce riche en gout, preparee a base d'huile de palme rouge, d'epices locales.
+                        Elle est generalement servie avec du couscous de mais.
+                    </p>
+                </div>
+
+                <div class="meal">
+                    <h2>3.Kondre</h2>
+                    <p>Un plat de viande(souvent de chevre ou de porc) mijotee avec des plantains et des epices locales.
+                    </p>
+                </div>
+
+                <div class="meal">
+                    <h2>4.Taro et sauce jaune</h2>
+                    <p>Un autre plat typique. Le taro(un tubercule) est  pile(comme du fufu)
+                        et mange avec la fameuse sauce jaune
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="navbar">
+            <nav>
+                <a href="hotel.html">Hotels</a>
+                <a href="#">WaterBodies</a>
+                <a href="#">Ceremonies</a>
+                <a href="#">Chiefs</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+forest
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="forest.css">
+</head>
+
+<body>
+    <header>
+        <div class="head" id="head">
+            <img src="1.jpg" alt="">
+            <h1 style="max-width: 900px;">Enjoy the West Region with the different forests Water bodies.
+                Enjoy the relief. Make it a memorable date. </h1>
+        </div>
+    </header>
+    <main>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="forest.html">Forests</a>
+            <a href="fes.html">Festivals</a>
+        </div>
+
+        <div class="flex">
+            <div class="flex1">
+                <h1>The Mendong Forest</h1>
+                <p> A forest rich in diversityllllll
+                    cvvvvvvvvvvvvvvhe Enchanted Circle is an 86 mile drive through gorgeous mountain peaks and valleys. This Enchanted
+                    Circle links the towns of Taos, Questa, Red River, Eagle Nest, Angel Fire and back to Taos! Take a
+                    picnic lunch to enjoy the beauty and serenity of Bobcat Pass or while fishing at one of the lakes
+                    around Eagle Nest or Angel Fire.
+                </p>
+            </div>
+            <div><img src="f2.jpg" alt="" style="height: 350px; width: 380px; border-radius: 10px;"></div>
+        </div>
+
+
+        <div class="flex">
+            <div><img src="f3.avif" alt="" style="height: 350px; width: 380px; border-radius: 10px;"></div>
+            <div class="flex1">
+                <h1>The Tatchop Forest</h1>
+                <p> A forest rich in diversityllllll
+                    cvvvvvvvvvvvvvvhe Enchanted Circle is an 86 mile drive through gorgeous mountain peaks and valleys. This Enchanted
+                    Circle links the towns of Taos, Questa, Red River, Eagle Nest, Angel Fire and back to Taos! Take a
+                    picnic lunch to enjoy the beauty and serenity of Bobcat Pass or while fishing at one of the lakes
+                    around Eagle Nest or Angel Fire.
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="flex">
+            <div class="flex1">
+                <h1>The Balesing Forest</h1>
+                <p> A forest rich in diversityllllll
+                    cvvvvvvvvvvvvvvhe Enchanted Circle is an 86 mile drive through gorgeous mountain peaks and valleys. This Enchanted
+                    Circle links the towns of Taos, Questa, Red River, Eagle Nest, Angel Fire and back to Taos! Take a
+                    picnic lunch to enjoy the beauty and serenity of Bobcat Pass or while fishing at one of the lakes
+                    around Eagle Nest or Angel Fire.
+                </p>
+            </div>
+            <div><img src="f4.jpg" alt="" style="height: 350px; width: 380px; border-radius: 10px;"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="navbar">
+            <nav>
+                <a href="hotel.html">Hotels</a>
+                <a href="#">WaterBodies</a>
+                <a href="#">Ceremonies</a>
+                <a href="#">Chiefs</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
+

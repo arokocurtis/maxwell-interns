@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fes.css">
+</head>
+
+<body>
+    <header>
+        <div class="head" id="head">
+            <img src="1.jpg" alt="">
+            <h1 style="max-width: 900px;">Enjoy the West Region with the different forests Water bodies.
+                Enjoy the relief. Make it a memorable date. </h1>
+        </div>
+    </header>
+    <main>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="forest.html">Forests</a>
+            <a href="fes.html">Festivals</a>
+        </div>
+
+        <div class="fes">
+            <div class="fes1">
+                <h1 style="max-width: 500px;">Not just the best in Cameroon but the best in the world</h1>
+                <div class="fes2">
+                    <img src="fes2.webp" alt="">
+                    <div style="padding-left: 1.5rem;">
+                        <h1>The congres festival</h1>
+                        <p>Come ski and ride the winter sun on the incredible slopes in the Land of Enchantment! Find
+                            out why skiers of all levels, from all over the world, make the trip to Taos every winter.
+                            Taos skiing will provide you with the ultimate in sporting options, stunning scenery,
+                            unbelievable food, out-of-this-world shopping, and a never-to-be-forgotten cultural
+                            experience.</p>
+                    </div>
+                </div>
+                <h1>What you may not know about our festivals.</h1>
+                <p style="font-size: 1.3rem;">On average, New Mexico slopes get 300 inches of snow each season.
+                     The new Kachina lift at Taos Ski Valley is one of the highest in North America.
+                     Angel Fire Ski & Summer Resort is the only New Mexico resort with night skiing.
+                     New Mexico's ski resorts are exceptionally family friendly, with affordable skiing and lodging
+                    packages to suit any budget.</p>
+            </div>
+
+            <div class="festi">
+                <h1>Festivals</h1>
+                <div>
+                    <h2 style="color: red;">1.Le Ngouon</h2>
+                    <p style="font-size: 1.2rem;">Marque par des des ceremonies traditionelles, des danses, des expositions
+                        et une foerte symbolique spirituelle.
+                    </p>
+                </div>
+                <div>
+                    <h2 style="color: red;">2.Danse du Lelem</h2>
+                    <p style="font-size: 1.2rem;">Cette evenement permet de transmettre les traditions orales, les valeurs sociales, et de renforcer
+                        lidentite culturelle.
+                    </p>
+                </div>
+                <div>
+                    <h2 style="color: red;">3.Rituel du La'akam</h2>
+                    <p style="font-size: 1.2rem;">Le peuple bamileke, en celebrant ses racines, venait de renforcer son lien aves ses ancetres, sa terre et son avenir</p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="navbar">
+            <nav>
+                <a href="hotel.html">Hotels</a>
+                <a href="#">WaterBodies</a>
+                <a href="#">Ceremonies</a>
+                <a href="#">Chiefs</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
+hotel
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="head" id="head">
+            <img src="1.jpg" alt="">
+            <h1 style="max-width: 900px;">Enjoy the West Region with the different forests Water bodies.
+                Enjoy the relief. Make it a memorable date. </h1>
+        </div>
+    </header>
+    <main>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="forest.html">Forests</a>
+            <a href="fes.html">Festivals</a>
+        </div>
+
+        <div class="hotel">
+            <h1>1.La vallee de Bana</h1>
+            <div class="container d-flex">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 w-0">
+                            <img src="vl1.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <!-- Column right with nested rows and columns -->
+
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="vp.jpg" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img src="vr.jpg" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img src="vt1.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <h1>2.PJGold Hotel</h1>
+            <div><img src="g1.jpg" alt=""></div>
+
+    </main>
+    <footer>
+        <div class="navbar">
+            <nav>
+                <a href="#">Hotels</a>
+                <a href="#">WaterBodies</a>
+                <a href="#">Ceremonies</a>
+                <a href="#">Chiefs</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

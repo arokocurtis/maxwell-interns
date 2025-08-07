@@ -1,0 +1,19 @@
+.fes2{
+    display: flex;
+    max-width: 800px;
+    
+}
+.fes2 img{
+    width: 200px;
+    height: 300px;
+}
+.fes2 p{
+    font-size: 1.3rem;
+}
+.fes{
+    display: flex;
+}
+.fes1{
+    max-width: 800px;
+    padding-right: 8rem;
+}
