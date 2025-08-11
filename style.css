@@ -1,0 +1,46 @@
+.body-tag {
+    background-color:white;
+    color: black;
+}
+main#banner {
+    width: 150%;
+    top: 0;
+    left: 0;
+    background-color: orange;
+    display: flex;
+    text-align: center;
+}
+.image {
+    width: 200px;
+    margin: right 0px;
+}
+.T {
+    width: 200px;
+    height: 250px;
+}
+.culture {
+    background-color:white;
+    color: black;
+}
+.right-text {
+    text-align: right;
+}
+nav a  {
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    cursor: pointer;
+}
+nav a:hover {
+    color: brown;
+}
+nav a {
+    background: red;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: -250px;
+} 
