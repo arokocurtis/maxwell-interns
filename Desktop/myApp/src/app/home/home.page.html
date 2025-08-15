@@ -1,0 +1,75 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Person
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="app-container">
+    <div class="header">
+      <div class="left">
+        <span class="menu">☰</span>
+        <span class="title">Personal</span>
+      </div>
+      <div class="logo">NICO HALLE<br><small>Co. Law Firm</small></div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <div class="icon"><i class="fa-solid fa-briefcase-medical"></i></div>
+          <div class="text">Health & Medical</div>
+          <div class="arrow">›</div>
+        </div>
+        <div class="accordion-body">
+          <p>Living Will</p>
+          <p>Hospital Visitation</p>
+          <p>Organ Donation Form</p>
+          <p>Advanced Directive</p>
+          <p>Birth Plan</p>
+        </div>
+      </div>
+
+      <div class="list-item">
+        <div class="icon"><i class="fa-solid fa-people-group"></i></div>
+        <div class="text">Family Matters</div>
+        <div class="arrow">›</div>
+      </div>
+
+      <div class="list-item">
+        <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+        <div class="text">Personal Finance</div>
+        <div class="arrow">›</div>
+      </div>
+
+      <div class="list-item">
+        <div class="icon"><i class="fa-solid fa-building-columns"></i></div>
+        <div class="text">Estate Planning</div>
+        <div class="arrow">›</div>
+      </div>
+
+      <div class="list-item">
+        <div class="icon"><i class="fa-solid fa-clock"></i></div>
+        <div class="text">Personal Property</div>
+        <div class="arrow">›</div>
+      </div>
+
+      <div class="list-item">
+        <div class="icon"><i class="fa-solid fa-scale-balanced"></i></div>
+        <div class="text">General Legal Matters</div>
+        <div class="arrow">›</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.querySelector('.accordion-header').addEventListener('click', () => {
+      const item = document.querySelector('.accordion-item');
+      item.classList.toggle('open');
+    });
+  </script>
+
+
+</ion-content>
